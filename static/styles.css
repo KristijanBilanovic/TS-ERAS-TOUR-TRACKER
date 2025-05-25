@@ -1,0 +1,248 @@
+.logo
+{
+    text-align: center;
+    background-color: #d9e9ff;
+    padding: 2%;
+    z-index: 2;
+}
+
+.debut_logo
+{
+    text-align: center;
+    background-color: #a5c9a5;
+    padding: 2%;
+    z-index: 2;
+}
+
+.fearless_logo
+{
+    text-align: center;
+    background-color: #f2e396;
+    padding: 2%;
+    z-index: 2;
+}
+
+.speaknow_logo
+{
+    text-align: center;
+    background-color: #c7a8cb;
+    padding: 2%;
+    z-index: 2;
+}
+
+.red_logo
+{
+    text-align: center;
+    background-color: #a34d59;
+    padding: 2%;
+    z-index: 2;
+}
+
+._1989_logo
+{
+    text-align: center;
+    background-color: #cff1ff;
+    padding: 2%;
+    z-index: 2;
+}
+
+.reputation_logo
+{
+    text-align: center;
+    background-color: #746F70;
+    padding: 2%;
+    z-index: 2;
+}
+
+.lover_logo
+{
+    text-align: center;
+    background-color: #f7b0cc;
+    padding: 2%;
+    z-index: 2;
+}
+
+.folklore_logo
+{
+    text-align: center;
+    background-color: #cdc9c1;
+    padding: 2%;
+    z-index: 2;
+}
+
+.evermore_logo
+{
+    text-align: center;
+    background-color: #c5ac90;
+    padding: 2%;
+    z-index: 2;
+}
+
+.midnights_logo
+{
+    text-align: center;
+    background-color: #242e47;
+    padding: 2%;
+    z-index: 2;
+}
+
+.ttpd_logo
+{
+    text-align: center;
+    background-color: #ccc4bb;
+    padding: 2%;
+    z-index: 2;
+}
+
+.others_logo
+{
+    text-align: center;
+    background-color: #de996a;
+    padding: 2%;
+    z-index: 2;
+}
+
+.apology_logo
+{
+    text-align: center;
+    background-color: #ba8ab8;
+    padding: 3%;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+#img_logo
+{
+    height: 10%;
+    width: 26%;
+    transition: 1s;
+}
+
+#red_img_logo
+{
+    height: 10%;
+    width: 10%;
+    transition: 1s;
+}
+
+#ttpd_img_logo
+{
+    height: 10%;
+    width: 10%;
+    transition: 1s;
+}
+
+#other_img_logo
+{
+    height: 15%;
+    width: 15%;
+    transition: 1s;
+}
+
+#img_logo:hover
+{
+    height: 15%;
+    width: 31%;
+}
+
+#red_img_logo:hover
+{
+    height: 13%;
+    width: 13%;
+}
+
+#ttpd_img_logo:hover
+{
+    height: 13%;
+    width: 13%;
+}
+
+#other_img_logo:hover
+{
+    height: 18%;
+    width: 18%;
+}
+
+td
+{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+#table_songs
+{
+    text-align: center;
+    margin-right: 13%;
+    margin-left: 13%;
+    width: 74%;
+}
+
+#table_songs td
+{
+    border: 1px solid;
+}
+
+.table_img
+{
+    height: 50%;
+    width: 50%;
+    border-radius: 15%;
+    transition: .5s;
+}
+
+#table_eras
+{
+    text-align: center;
+    margin-right: 13%;
+    margin-left: 13%;
+    width: 74%;
+}
+
+.table_img:hover
+{
+    height: 54%;
+    width: 54%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+body::before, body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 13%; /* adjust this to change the width of the edges */
+    background: url('imgs/bg.jpg') repeat;
+    background-size: 13rem;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+body::before {
+    left: 0;
+}
+
+body::after {
+    right: 0;
+}
+
+
+.table_text
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: 113%;
+    font-weight: bold;
+}
+
+.btn_div
+{
+    text-align: center;
+}

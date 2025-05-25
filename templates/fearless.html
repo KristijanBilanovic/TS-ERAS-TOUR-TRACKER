@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<div class = "fearless_logo">
+    <a href = "/">
+        <img class = "img-fluid" id = "img_logo" src = "/static/imgs/fearless_logo.png">
+    </a>
+</div>
+
+<div>
+    <table id = "table_songs" class = "table table-hover">
+        <thead class="table-light">
+            <td>SONG TITLE</td>
+            <td>TIMES PLAYED</td>
+            <td>INCREMENT</td>
+        </thead>
+
+        <tbody>
+            {% for song in songs %}
+            <tr>
+                <td>{{ song.title }}</td>
+                <td>{{ song.plays }}</td>
+                <td>
+                   <form action = "/fearless" method = "post">
+                        <button class = "btn btn-primary btn-lg" name = "button" value = "{{ song.title }}">+1</button>
+                   </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

@@ -1,0 +1,115 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<div class = "logo">
+    <a href = "https://tstheerastour.taylorswift.com/">
+        <img class = "img-fluid" id = "img_logo" src = "/static/imgs/logo.png">
+    </a>
+</div>
+
+<br>
+<br>
+
+<div class = "btn_div">
+    <a href = "/eras">
+        <button class = "btn btn-primary btn-lg">
+            See All Songs
+        </button>
+    </a>
+</div>
+
+<br>
+<br>
+
+<div>
+    <table id = "table_eras">
+        <tr>
+            <td>
+                <a href = "/debut">
+                    <img class="img-fluid table_img" src = "static/imgs/debut.jpg">
+                </a>
+                <p class = "table_text">Taylor Swift (Taylor's version)</p>
+            </td>
+            <td>
+                <a href = "/fearless">
+                    <img class="img-fluid table_img" src = "static/imgs/fearless.jpg">
+                </a>
+                <p class = "table_text">Fearless (Taylor's version)</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href = "/speaknow">
+                    <img class = "img-fluid table_img" src = "static/imgs/speaknow.jpg">
+                </a>
+                <p class = "img-fluid table_text">Speak Now (Taylor's version)</p>
+            </td>
+            <td>
+                <a href = "/red">
+                    <img class = "img-fluid table_img" src = "static/imgs/red.jpg">
+                </a>
+                <p class = "table_text">RED (Taylor's version)</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href = "/1989">
+                    <img class = "img-fluid table_img" src = "static/imgs/1989.jpg">
+                </a>
+                <p class = "table_text">1989 (Taylor's version)</p>
+            </td>
+            <td>
+                <a href = "/reputation">
+                    <img class = "img-fluid table_img" src = "static/imgs/reputation.jpg">
+                </a>
+                <p class = "table_text">reputation (Taylor's version)</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href = "/lover">
+                    <img class = "img-fluid table_img" src = "static/imgs/lover.jpg">
+                </a>
+                <p class = "table_text">Lover</p>
+            </td>
+            <td>
+                <a href = "/folklore">
+                    <img class = "img-fluid table_img" src = "static/imgs/folklore.jpg">
+                </a>
+                <p class = "table_text">folklore</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href = "/evermore">
+                    <img class = "img-fluid table_img" src = "static/imgs/evermore.jpg">
+                </a>
+                <p class = "table_text">evermore</p>
+            </td>
+            <td>
+                <a href = "/midnights">
+                    <img class = "img-fluid table_img" src = "static/imgs/midnights.jpg">
+                </a>
+                <p class = "table_text">Midnights</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href = "/ttpd">
+                    <img class = "img-fluid table_img" src = "static/imgs/ttpd.jpg">
+                </a>
+                <p class = "table_text">The Tortured Poets Department</p>
+            </td>
+            <td>
+                <a href = "/others">
+                    <img class = "img-fluid table_img" src = "static/imgs/others.jpg">
+                </a>
+                <p class = "table_text">Other songs</p>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+{% endblock %}
